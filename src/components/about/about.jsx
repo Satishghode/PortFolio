@@ -35,9 +35,8 @@ const about = () => {
               <small>7+  Projects</small>
             </article>
             </div>          
-            <p>Hi I am Ghode Satish. I am a Bachelor of Computer Application undergraduate from Sangamner College and a technology enthusias.
-            I have a deep interest on development and i have made 7 project using Frontend technologies and Backend technologies.
-            As well as i am interested in Cyber Security and practicing my cyber skill on tryhackme. total participants 1212715 and  my rank is  9574.
+            <p>
+            Hi, I am Ghode Satish. I am completed my bachelor's degree from Sangamner College and am a technology enthusiast. I have a deep interest in development and  I am pursuing Java full-stack development from Qspider/Jspider in Pune.  I have done 7 projects using Frontend technologies and Backend technologies. and I am practicing my coding skill on LeedCode. As well as I am interested in Cyber Security and practicing my cyber skill on TryHackme. total participants 1212715 and my rank is 9574.
             </p>
             <a href="#contact" className='btn btn-primary' >Let's Talk</a>
         </div>

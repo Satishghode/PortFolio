@@ -11,7 +11,7 @@ import  IMG6  from "../../assets/cyber.png";
 const Portfolio = () => {
   return (
     <section id='portfolio' >
-        <h5>my Projects</h5>
+        <h5>My Projects</h5>
         <h2>Portfolio </h2>
         <div className="container portfolio__container">
             
@@ -27,7 +27,7 @@ const Portfolio = () => {
                 </small>
                 <div className="portfolio__item-cta">
                     <a href="https://github.com/Satishghode/Admin-Dashbord" className='btn' target='_blank' >Github</a>
-                    <a href="#" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://satishghode.github.io/Admin-Dashbord.github.io/" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             <article className='portfolio__item' >
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 </small>
                 <div className="portfolio__item-cta">
                     <a href="https://github.com/Satishghode/youtube-clone" className='btn' target='_blank' >Github</a>
-                    <a href="#" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://satishghode.github.io/youtube-clone.github.io/" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             <article className='portfolio__item' >
@@ -53,7 +53,7 @@ const Portfolio = () => {
                 </small>
                 <div className="portfolio__item-cta">
                     <a href="https://github.com" className='btn' target='_blank' >Github</a>
-                    <a href="#" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://satishghode.github.io/PortFolio/" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             <article className='portfolio__item' >
@@ -66,7 +66,7 @@ const Portfolio = () => {
                 </small>
                 <div className="portfolio__item-cta">
                     <a href="https://github.com" className='btn' target='_blank' >Github</a>
-                    <a href="#" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://satishghode.github.io/PortFolio/" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             <article className='portfolio__item' >
@@ -79,7 +79,7 @@ const Portfolio = () => {
                 </small>
                 <div className="portfolio__item-cta">
                     <a href="https://github.com" className='btn' target='_blank' >Github</a>
-                    <a href="#" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://satishghode.github.io/PortFolio/" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             <article className='portfolio__item' >
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 </small>
                 <div className="portfolio__item-cta">
                     <a href="https://github.com" className='btn' target='_blank' >Github</a>
-                    <a href="#" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://tryhackme.com/p/MR.satish" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             
