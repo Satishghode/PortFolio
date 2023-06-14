@@ -18,27 +18,27 @@ const data =[
   {
     avatar:AVTR4,
     name: 'M**** ******',
-    review: 'Hey brother build yourself then try solve other person problems.'
+    review: '--------------------------------.'
   },
   {
     avatar:AVTR4,
     name: 'S**** W********',
-    review: 'A re baba nko sangu mla mahit ahe tu kiti Chu**** ahe .'
+    review: '--------------------------------.'
   },
   {
     avatar:AVTR4,
     name: 'A***** T****** ',
-    review: 'A re tuzi layki ahe ka mza sobat bolaychi mla tuza peksha jasta marks padlet.'
+    review: '--------------------------------.'
   },
   {
     avatar:AVTR4,
     name: 'A*** R******',
-    review: ' Are me tuza sarkha ch*t* nahiye .'
+    review: ' ------------------------------.'
   },
   {
     avatar:AVTR4,
     name: 'S**d** R*******',
-    review: 'Ha gap mla pahiti yena ki tula ka* nahi yet te, ani ho lai yet ase pan nko krus.'
+    review: '----------------------------------'
   },
 ]
 
@@ -63,7 +63,7 @@ const Testimonial = () => {
                 <img src={avatar}  />
                 </div>
                   <h5 className='client__name' >{name}</h5>
-                  <small className='client__review'> {review}</small>
+                  <small className='client__review'>  {review} </small>
             </SwiperSlide>
             )
           })
