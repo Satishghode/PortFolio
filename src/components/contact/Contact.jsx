@@ -12,9 +12,7 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_ikukyfc', 'template_4mf7ux8', form.current, 'qOLbRFOLDcSraH-4Z')
-
     e.target.reset()
   };
 
