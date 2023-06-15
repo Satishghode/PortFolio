@@ -6,6 +6,7 @@ import  IMG3  from "../../assets/Youtube.png"
 import  IMG4  from "../../assets/Portfolio4.png"
 import  IMG5  from "../../assets/portfolio5.png"
 import  IMG6  from "../../assets/cyber.png";
+import  IMG7  from "../../assets/tic-tac.png";
 
 
 const Portfolio = () => {
@@ -58,15 +59,15 @@ const Portfolio = () => {
             </article>
             <article className='portfolio__item' >
                 <div className="portfolio__item-image">
-                    <img src={IMG4} alt="" />
+                    <img src={IMG7} alt="" />
                 </div>
-                <h3>Responsive React Portfolio : </h3>
+                <h3>Tic-Tac-Toe-Game</h3>
                 <small>
                         Using HTML CSS & React with  Multiple Optins.
                 </small>
                 <div className="portfolio__item-cta">
-                    <a href="https://github.com" className='btn' target='_blank' >Github</a>
-                    <a href="https://satishghode.github.io/PortFolio/" className='btn btn-primary' target='_blank' > Live Demo</a>
+                    <a href="https://github.com/Satishghode/Tic-Tac-Toe-Game" className='btn' target='_blank' >Github</a>
+                    <a href="https://satishghode.github.io/Tic-Tac-Toe-Game/" className='btn btn-primary' target='_blank' > Live Demo</a>
                 </div>
             </article>
             <article className='portfolio__item' >

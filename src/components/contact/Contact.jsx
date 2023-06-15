@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { SiMessenger } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
 import  { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 
 
 export const Contact = () => {
@@ -13,7 +13,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_tuy61yp', 'template_9580qlp', form.current, '4x1ERhqxn7kjI6rh-')
+    emailjs.sendForm('service_ikukyfc', 'template_4mf7ux8', form.current, 'qOLbRFOLDcSraH-4Z')
 
     e.target.reset()
   };
@@ -49,8 +49,9 @@ export const Contact = () => {
         <form ref={form} onSubmit={sendEmail} >
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name="email"  placeholder='Your Email' required />
+          <input type="text" name="subject"  placeholder='Subject ...' required />
           <textarea name="message" rows="7" placeholder='Your Message'  required ></textarea>
-          <button type='submit ' className='btn btn-primary'>Sent Message</button>
+          <button type='submit ' className='btn btn-primary' onClick={()=>{alert("Massags sent")}}  >Sent Message</button>
         </form>
       </div>
     </section>

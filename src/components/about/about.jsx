@@ -25,7 +25,7 @@ const about = () => {
 
             <article className='about__card' >
                 <FiUsers className='about__icon' />
-              <h5>Clients</h5>
+              <h5>Company</h5>
               <small>0+  Working </small>
             </article>
 
@@ -36,7 +36,10 @@ const about = () => {
             </article>
             </div>          
             <p>
-            Hi, I am Ghode Satish. I am completed my bachelor's degree from Sangamner College and am a technology enthusiast. I have a deep interest in development and  I am pursuing Java full-stack development from Qspider/Jspider in Pune.  I have done 7 projects using Frontend technologies and Backend technologies. and I am practicing my coding skill on LeedCode. As well as I am interested in Cyber Security and practicing my cyber skill on TryHackme. total participants 1212715 and my rank is 9574.
+            Hi, I am Ghode Satish. I am completed my bachelor's degree from Sangamner College and am a technology enthusiast. 
+            I have a deep interest in development and  I am pursuing Java full-stack development from Qspider/Jspider in Pune.
+            I have done 7 projects using Frontend technologies and Backend technologies. and I am practicing my coding skill on LeedCode.
+             As well as I am interested in Cyber Security and practicing my cyber skill on TryHackme. total participants 1212715 and my rank is 9574.
             </p>
             <a href="#contact" className='btn btn-primary' >Let's Talk</a>
         </div>

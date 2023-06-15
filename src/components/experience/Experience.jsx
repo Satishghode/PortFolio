@@ -2,7 +2,7 @@ import React from 'react'
 import './experience.css'
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
-import { SiCss3 } from "react-icons/si";
+import { SiCss3, SiTailwindcss } from "react-icons/si";
 import { RiHtml5Fill } from "react-icons/ri";
 import { GrReactjs } from "react-icons/gr";
 import { DiJava } from "react-icons/di";
@@ -31,44 +31,45 @@ const Experience = () => {
                 <RiHtml5Fill className='experience__details-icon' />
                 <div>
                   <h4>HTML</h4>
-                  <small className='experience__details' >experience</small>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
                 <SiCss3 className='experience__details-icon' />
                 <div>
                   <h4>CSS</h4>
-                  <small className='experience__details' > intermediate </small>
+                  <small className='experience__details' > Intermediate </small>
                 </div>
               </article>
               <article className='experience__details' >
                 <FaBootstrap className='experience__details-icon' />
                   <div>
                   <h4>Bootstrap</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                   </div>
+              </article>
+              <article className='experience__details' >
+                <SiTailwindcss className='experience__details-icon' />
+                <div>
+                  <h4>Material UI</h4>
+                  <small className='experience__details' >Intermediate</small>
+                </div>
               </article>
               <article className='experience__details' >
                 <TbBrandJavascript className='experience__details-icon' />
                 <div>
                   <h4>JavaScript</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                 </div>
               </article>
               <article className='experience__details' >
                 <GrReactjs className='experience__details-icon' />
                   <div>
                     <h4>React</h4>
-                    <small className='experience__details' > intermediate </small>
+                    <small className='experience__details' > Intermediate </small>
                   </div>
               </article>
-              <article className='experience__details' >
-                <DiJava className='experience__details-icon' />
-                <div>
-                  <h4>java</h4>
-                  <small className='experience__details' >Basic</small>
-                </div>
-              </article>
+
             </div>
         </div>
         {/* ++++++++++++++++++++++++++++ end of frontend +++++++++++++++++++ */}
@@ -85,28 +86,28 @@ const Experience = () => {
                 <DiJava className='experience__details-icon' />
                 <div>
                   <h4>Java</h4>
-                  <small className='experience__details' >experience</small>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
                 <SiPython className='experience__details-icon' />
                   <div>
                     <h4>Python</h4>
-                    <small className='experience__details' > intermediate </small>
+                    <small className='experience__details' > Intermediate </small>
                   </div>
               </article>
               <article className='experience__details' >
                 <SiPhp className='experience__details-icon' />
                   <div>
                     <h4>Php</h4>
-                    <small className='experience__details' >intermediate</small>
+                    <small className='experience__details' >Intermediate</small>
                   </div>     
               </article>
               <article className='experience__details' >
                 <SiMysql className='experience__details-icon' />
                 <div>
                   <h4>Mysql</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                 </div>
               </article>
               <article className='experience__details' >
@@ -139,42 +140,42 @@ const Experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>Fundamentals</h4>
-                  <small className='experience__details' >experience</small>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
                 <VscTerminalLinux className='experience__details-icon' />
                 <div>
                   <h4>Linux Exploitation</h4>
-                  <small className='experience__details' > intermediate </small>
+                  <small className='experience__details' > Intermediate </small>
                 </div>
               </article>
               <article className='experience__details' >
                 <GiSpiderWeb className='experience__details-icon' />
                   <div>
                   <h4>Web Exploitation</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                   </div>
               </article>
               <article className='experience__details' >
                 <FaNetworkWired className='experience__details-icon' />
                 <div>
                   <h4>Network Exploitation</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                 </div>
               </article>
               <article className='experience__details' >
                 <SiGnuprivacyguard className='experience__details-icon' />
                   <div>
                     <h4>Privilege Escalation</h4>
-                    <small className='experience__details' > intermediate </small>
+                    <small className='experience__details' > Intermediate </small>
                   </div>
               </article>
               <article className='experience__details' >
                 <SiWindows className='experience__details-icon' />
                 <div>
                   <h4>Windows Exploitation</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                 </div>
               </article>
             </div>
@@ -193,28 +194,28 @@ const Experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>String</h4>
-                  <small className='experience__details' >experience</small>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
                 <BsFillPatchCheckFill className='experience__details-icon' />
                   <div>
                     <h4>Sorting</h4>
-                    <small className='experience__details' > intermediate </small>
+                    <small className='experience__details' > Intermediate </small>
                   </div>
               </article>
               <article className='experience__details' >
                 <BsFillPatchCheckFill className='experience__details-icon' />
                   <div>
                     <h4>Array</h4>
-                    <small className='experience__details' >intermediate</small>
+                    <small className='experience__details' >Intermediate</small>
                   </div>     
               </article>
               <article className='experience__details' >
                 <BsFillPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>Recursion</h4>
-                  <small className='experience__details' >intermediate</small>
+                  <small className='experience__details' >Intermediate</small>
                 </div>
               </article>
               <article className='experience__details' >
