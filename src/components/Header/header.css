@@ -83,7 +83,7 @@ header{
 
 @media screen and (max-width:600px) {
     header{
-        height: 95vh;
+        height: 96vh;
     }
     .header__socials, .scroll__down{
         display: none;
@@ -96,14 +96,14 @@ header{
 
 @media screen and (max-width:400px) {
     header{
-        height: 95vh;
+        height: 97vh;
     }
     .header__socials, .scroll__down{
         display: none;
     }
     .me {
         width: 22rem;
-       height: 27rem; 
+       height: 26rem; 
    }
 }
 
