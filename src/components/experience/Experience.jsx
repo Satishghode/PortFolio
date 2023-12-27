@@ -20,7 +20,8 @@ import { SiWindows } from "react-icons/si";
 
 const Experience = () => {
   return (
-    <section id='experiencs' >
+    // Edite the experience section Id 
+    <section id='experience' >
       <h5>What Skill I have</h5>
       <h2>My Experience </h2>
       <div className="container experience__container">
