@@ -6,24 +6,24 @@ import { SiCss3, SiTailwindcss } from "react-icons/si";
 import { RiHtml5Fill } from "react-icons/ri";
 import { GrReactjs } from "react-icons/gr";
 import { DiJava } from "react-icons/di";
-import { SiPython } from "react-icons/si";
-import { SiPhp } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import { IoLogoNodejs } from "react-icons/io";
-import { BsFillPatchCheckFill } from "react-icons/bs";
-import { VscTerminalLinux } from "react-icons/vsc";
-import { GiSpiderWeb } from "react-icons/gi";
-import { FaNetworkWired } from "react-icons/fa";
-import { SiGnuprivacyguard } from "react-icons/si";
-import { SiWindows } from "react-icons/si";
-
+import { SiExpress } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiHibernate } from "react-icons/si";
+import { SiSpring } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
+import { IoServer } from "react-icons/io5";
+import { SiOracle } from "react-icons/si";
 
 const Experience = () => {
   return (
     // Edite the experience section Id 
     <section id='experience' >
       <h5>What Skill I have</h5>
-      <h2>My Experience </h2>
+      <h2>And Experience </h2>
       <div className="container experience__container">
         <div className="experence__frontend " >
             <h3>Frontend Development</h3>
@@ -80,49 +80,51 @@ const Experience = () => {
         <div className="experience__backend">
               <div className='experience__details1' > 
                 {/* <BsPatchCheckFill className='experience__details-icon' /> */}
-                <h3>Backend Development</h3>
+                <h3>Backend Development Using Java</h3>
               </div >
             <div className="experience__content">
               <article className='experience__details' >
                 <DiJava className='experience__details-icon' />
                 <div>
-                  <h4>Java</h4>
+                  <h4>Core Java</h4>
                   <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
-                <SiPython className='experience__details-icon' />
+                <DiJava className='experience__details-icon' />
                   <div>
-                    <h4>Python</h4>
+                    <h4>Adv Java</h4>
                     <small className='experience__details' > Intermediate </small>
                   </div>
               </article>
               <article className='experience__details' >
-                <SiPhp className='experience__details-icon' />
+                <SiHibernate className='experience__details-icon' />
                   <div>
-                    <h4>Php</h4>
+                    <h4>Hibernate</h4>
                     <small className='experience__details' >Intermediate</small>
                   </div>     
               </article>
               <article className='experience__details' >
-                <SiMysql className='experience__details-icon' />
+                <SiSpring className='experience__details-icon' />
                 <div>
-                  <h4>Mysql</h4>
-                  <small className='experience__details' >Intermediate</small>
+                  <h4>Spring Framework</h4>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
-                <IoLogoNodejs className='experience__details-icon' />
+                <SiSpring className='experience__details-icon' />
                   <div>
-                    <h4>Node</h4>
-                    <small className='experience__details' > Basic </small>
+                    <h4>SpringBoot</h4>
+                    <small className='experience__details' >Experience </small>
                   </div>
               </article>
-              {/* <article className='experience__details' >
-                <DiJava/>
-                <h4>java</h4>
-                <small className='experience__details' >Basic</small>
-              </article> */}
+              <article className='experience__details' >
+                <SiSpring className='experience__details-icon' />
+                  <div>
+                    <h4>SpringMVC</h4>
+                    <small className='experience__details' >Experience </small>
+                  </div>
+              </article>
             </div>
 
             {/* ++++++++++++++++++++ END of the backend++++++++++++++++++++++ */}
@@ -134,49 +136,49 @@ const Experience = () => {
         <div className="experence__frontend " >
           <div className='experience__details1 ' >
           {/* <BsPatchCheckFill className='experience__details-icon' /> */}
-            <h3>Cyber Security</h3>
+            <h3>Backend Development Using JavaScript </h3>
             </div>
             <div className="experience__content">
               <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <TbBrandJavascript className='experience__details-icon' />
                 <div>
-                  <h4>Fundamentals</h4>
+                  <h4>JavaScript</h4>
                   <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
-                <VscTerminalLinux className='experience__details-icon' />
+                <TbBrandJavascript className='experience__details-icon' />
                 <div>
-                  <h4>Linux Exploitation</h4>
-                  <small className='experience__details' > Intermediate </small>
+                  <h4>Adv JavaScript</h4>
+                  <small className='experience__details' > Experience </small>
                 </div>
               </article>
               <article className='experience__details' >
-                <GiSpiderWeb className='experience__details-icon' />
+                <FaNode className='experience__details-icon' />
                   <div>
-                  <h4>Web Exploitation</h4>
+                  <h4>Node JS</h4>
                   <small className='experience__details' >Intermediate</small>
                   </div>
               </article>
               <article className='experience__details' >
-                <FaNetworkWired className='experience__details-icon' />
+                <SiExpress className='experience__details-icon' />
                 <div>
-                  <h4>Network Exploitation</h4>
+                  <h4>Express Js</h4>
                   <small className='experience__details' >Intermediate</small>
                 </div>
               </article>
               <article className='experience__details' >
-                <SiGnuprivacyguard className='experience__details-icon' />
+                <SiMongodb className='experience__details-icon' />
                   <div>
-                    <h4>Privilege Escalation</h4>
+                    <h4>NOSQL</h4>
                     <small className='experience__details' > Intermediate </small>
                   </div>
               </article>
               <article className='experience__details' >
-                <SiWindows className='experience__details-icon' />
+                <SiMysql className='experience__details-icon' />
                 <div>
-                  <h4>Windows Exploitation</h4>
-                  <small className='experience__details' >Intermediate</small>
+                  <h4>MYSQL</h4>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
             </div>
@@ -188,48 +190,48 @@ const Experience = () => {
         <div className="experience__backend">
               <div className='experience__details1 ' > 
                 {/* <BsFillPatchCheckFill className='experience__details-icon' /> */}
-                <h3> Data Structures and Algorithms Using Java</h3>
+                <h3> Dev Tools</h3>
               </div >
             <div className="experience__content">
               <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <FaGitAlt className='experience__details-icon' />
                 <div>
-                  <h4>String</h4>
+                  <h4>Git</h4>
                   <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <FaGithub className='experience__details-icon' />
                   <div>
-                    <h4>Sorting</h4>
-                    <small className='experience__details' > Intermediate </small>
+                    <h4>GitHub</h4>
+                    <small className='experience__details' > Experience </small>
                   </div>
               </article>
               <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <SiPostman className='experience__details-icon' />
                   <div>
-                    <h4>Array</h4>
-                    <small className='experience__details' >Intermediate</small>
+                    <h4>PostMan</h4>
+                    <small className='experience__details' >Experience</small>
                   </div>     
               </article>
               <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <IoServer className='experience__details-icon' />
                 <div>
-                  <h4>Recursion</h4>
-                  <small className='experience__details' >Intermediate</small>
+                  <h4>MYSQL Server</h4>
+                  <small className='experience__details' >Experience</small>
                 </div>
               </article>
               <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <SiMongodb className='experience__details-icon' />
                   <div>
-                    <h4>Tree</h4>
-                    <small className='experience__details' > Basic </small>
+                    <h4>Mongoose</h4>
+                    <small className='experience__details' > Experience </small>
                   </div>
               </article>
                <article className='experience__details' >
-                <BsFillPatchCheckFill className='experience__details-icon' />
+                <SiOracle className='experience__details-icon' />
                 <div>
-                  <h4>Backtracking</h4>
+                  <h4>Oracle</h4>
                   <small className='experience__details' >Basic</small>
                 </div>
               </article> 
